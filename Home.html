@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DEVINDA'S PORTFOLIO</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <!-- Boxicons CDN Link -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Dew</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#resume">Resume</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Home section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, I'm</h3>
+                <h1>Samith Devinda</h1>
+                <h3>I'm a 
+                     <span style="--i:4;" data-text="Cloud Enthusiast"> Cloud Enthusiast</span>
+                     <span style="--i:3;" data-text="Devops Enthusiast"> Devops Enthusiast</span>
+                     <span style="--i:2;" data-text="Web Developer"> Web Developer</span>
+                     <span style="--i:1;" data-text="Designer"> Designer</span>
+                </h3>
+                <p>Passionate about cloud computing, modern web development, and creating innovative solutions that make a difference.</p>
+                
+                <div class="btn-sci">
+                    <a href="#" class="btn">Download CV</a>
+                    
+                    <div class="sci">
+                        <a href="https://github.com/SamithThamel" aria-label="GitHub">
+                           <i class='bx bxl-github'></i> 
+                        </a>
+                        <a href="https://www.linkedin.com/in/samith-thamel-a87972316?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh83RbcJKRZ%2B46sgHwZTa%2FQ%3D%3D" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i> 
+                        </a>
+                        <a href="mailto:thamelsamith@gmail.com" aria-label="Gmail">
+                           <i class='bx bxl-gmail'></i> 
+                        </a>
+                        <a href="https://www.facebook.com/share/1Bewj6xzFZ/" aria-label="Facebook">
+                          <i class='bx bxl-facebook'></i>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="Profile-image.png" alt="Samith Devinda Profile">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="icon">
+                       <i class='bx bx-cloud'></i>  
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>  
+                    <h3>Cloud Computing</h3>
+                    <p>Experience with AWS, Azure, and Google Cloud Platform for scalable and reliable cloud solutions.</p>
+                </div>
+                
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-infinite'></i> 
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>  
+                    <h3>Devops Engineering</h3>
+                    <p>Proficient in CI/CD pipelines, containerization, and orchestration tools like Docker and Kubernetes.</p>
+                </div>
+                
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-code-alt'></i>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>  
+                    <h3>Web Developer</h3>
+                    <p>Experience with HTML, CSS, JavaScript, and modern frameworks for building responsive and user-friendly websites.</p>
+                </div>
+                
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-palette'></i> 
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>  
+                    <h3>Graphic Design</h3>
+                    <p>Proficient in Adobe Photoshop and Illustrator for creating stunning visuals and branding materials with AI image Generation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume section -->
+        <section class="resume" id="resume">
+            <div class="resume-container">
+                <!-- Left Side: Buttons -->
+                <div class="resume-box">
+                    <h2 class="heading">Why <span>Hire Me?</span></h2>
+                    <p class="desc">I am a highly skilled and motivated professional with a strong background in cloud computing, DevOps engineering, web development, and graphic design. My diverse skill set allows me to tackle complex challenges and deliver innovative solutions.</p>
+                    
+                    <div class="resume-tabs">
+                        <button class="resume-btn active" data-tab="education">
+                            <i class='bx bxs-graduation'></i>
+                            <span>Education</span>
+                        </button>
+                        <button class="resume-btn" data-tab="skills">
+                            <i class='bx bxs-cog'></i>
+                            <span>Skills</span>
+                        </button>
+                        <button class="resume-btn" data-tab="about">
+                            <i class='bx bxs-user'></i>
+                            <span>About Me</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Side: Content -->
+                <div class="resume-content">
+                    <!-- Education Tab -->
+                    <div class="resume-detail active" data-content="education">
+                        <h2 class="heading">My <span>Education</span></h2>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2025 - 2028</span>
+                                <h3>Bachelor's in Computer Science</h3>
+                                <p class="company"><i class='bx bxs-briefcase'></i>General Sir John Kotelawala Defense University</p>
+                                <p>Specialized in cloud computing, software engineering, and data structures. Studying with honors.</p>
+                            </div>
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2023</span>
+                                <h3>AWS Solutions Architect</h3>
+                                <p class="company"><i class='bx bxs-certification'></i> Amazon Web Services</p>
+                                <p>Certified AWS Solutions Architect - Professional level certification.</p>
+                            </div>
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2023</span>
+                                <h3>Certified Kubernetes Administrator</h3>
+                                <p class="company"><i class='bx bxs-certification'></i> Cloud Native Computing Foundation</p>
+                                <p>Expertise in container orchestration and Kubernetes deployment.</p>
+                            </div>
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2024</span>
+                                <h3>Web Development Bootcamp</h3>
+                                <p class="company"><i class='bx bxs-school'></i> Online Learning Platform</p>
+                                <p>Full-stack web development with modern frameworks and technologies.</p>
+                            </div>
+                              <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2024</span>
+                                <h3>ISC2 - Cyber Security</h3>
+                                <p class="company"><i class='bx bxs-school'></i> ISC2 - Cyber Security Platform</p>
+                                <p>Specialized in cybersecurity principles and practices.</p>
+                            </div>
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2025</span>
+                                <h3>Certified Aviatrex Multicloud Engineer</h3>
+                                <p class="company"><i class='bx bxs-school'></i>Certified in Aviatrex Multicloud Engineer</p>
+                                <p>Specialized in multicloud engineering and Aviatrex platform.</p>
+                            </div>
+                            <div class="resume-item">
+                                <span class="year"><i class='bx bxs-calendar'></i> 2025</span>
+                                <h3>Introduction to Networking</h3>
+                                <p class="company"><i class='bx bxs-school'></i> CISCO - General Sir John Kotelawala Defense University</p>
+                                <p>I am currently pursuing an introduction to networking course to enhance my understanding of network fundamentals and protocols.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Tab -->
+                    <div class="resume-detail" data-content="skills">
+                        <h2 class="heading">My <span>Skills</span></h2>
+                        <div class="resume-list skills-grid">
+                            <div class="skill-item">
+                                <i class='bx bxl-html5'></i>
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-css3'></i>
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-javascript'></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-react'></i>
+                                <span class="skill-name">React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-bootstrap'></i>
+                                <span class="skill-name">Bootstrap</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-tailwind-css'></i>
+                                <span class="skill-name">Tailwind CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-nodejs'></i>
+                                <span class="skill-name">Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-mongodb'></i>
+                                <span class="skill-name">MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-aws'></i>
+                                <span class="skill-name">AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-google-cloud'></i>
+                                <span class="skill-name">Google Cloud</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-docker'></i>
+                                <span class="skill-name">Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-kubernetes'></i>
+                                <span class="skill-name">Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxs-data'></i>
+                                <span class="skill-name">Terraform</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxs-palette'></i>
+                                <span class="skill-name">Photoshop</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxs-pencil'></i>
+                                <span class="skill-name">Illustrator</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class='bx bxl-figma'></i>
+                                <span class="skill-name">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Tab -->
+                    <div class="resume-detail" data-content="about">
+                        <h2 class="heading">About <span>Me</span></h2>
+                        <div class="resume-list about-grid">
+                            <div class="about-item">
+                                <i class='bx bxs-user'></i>
+                                <p><strong>Name:</strong> <span>Samith Devinda</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-cake'></i>
+                                <p><strong>Age:</strong> <span>22</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-heart'></i>
+                                <p><strong>Status:</strong> <span>Single</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-user-detail'></i>
+                                <p><strong>Gender:</strong> <span>Male</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-map'></i>
+                                <p><strong>Country:</strong> <span>Sri Lanka</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-buildings'></i>
+                                <p><strong>City:</strong> <span>Colombo</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-flag'></i>
+                                <p><strong>Nationality:</strong> <span>Sinhala</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-phone'></i>
+                                <p><strong>Phone:</strong> <span>+94-071-7128629</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-envelope'></i>
+                                <p><strong>Email:</strong> <span>thamelsamith@gmail.com</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-conversation'></i>
+                                <p><strong>Language:</strong> <span>English, Sinhala</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-time'></i>
+                                <p><strong>Part Time:</strong> <span>Available</span></p>
+                            </div>
+                            <div class="about-item">
+                                <i class='bx bxs-briefcase'></i>
+                                <p><strong>Freelance:</strong> <span>Available</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio section -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span>Projects</span></h2>
+            
+            <!-- Filter Buttons -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="cloud">Cloud & DevOps</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="portfolio-container">
+                <!-- Project 1 -->
+                <div class="portfolio-box" data-category="cloud">
+                    <div class="portfolio-content">
+                        <div class="portfolio-info">
+                            <span class="project-number">01</span>
+                            <h3>AWS Web Hosting</h3>
+                            <p>Completely hosted a Node.js website on AWS cloud services, ensuring high availability and scalability with automated CI/CD pipelines.</p>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">BASH</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/SamithThamel/AWS-Session.git" class="project-link">
+                                    <i class='bx bxl-github'></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://github.com/SamithThamel/AWS-Session.git" class="project-link">
+                                    <i class='bx bx-link-external'></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-image">
+                            <div class="image-slider">
+                                <div class="slider-wrapper">
+                                    <img src="pic-8.png" alt="AWS Web Hosting" class="active">
+                                </div>
+                            </div>
+                            <div class="image-overlay">
+                                <i class='bx bx-search-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-box" data-category="web">
+                    <div class="portfolio-content">
+                        <div class="portfolio-info">
+                            <span class="project-number">02</span>
+                            <h3>Event Management System</h3>
+                            <p>Full responsive Event Management System with dynamic features, user authentication, and real-time event updates.</p>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/SamithThamel/Event-Management-System-V.1.0.git" class="project-link">
+                                    <i class='bx bxl-github'></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://github.com/SamithThamel/Event-Management-System-V.1.0.git" class="project-link">
+                                    <i class='bx bx-link-external'></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-image">
+                            <div class="image-slider">
+                                <button class="slider-btn prev" data-project="2">
+                                    <i class='bx bx-chevron-left'></i>
+                                </button>
+                                <div class="slider-wrapper">
+                                    <img src="pic-1.png" alt="Event Management System" class="active">
+                                    <img src="pic-2.png" alt="Event Management System">
+                                    <img src="pic-3.png" alt="Event Management System">
+                                    <img src="pic-4.png" alt="Event Management System">
+                                    <img src="pic-5.png" alt="Event Management System">
+                                    <img src="pic-6.png" alt="Event Management System">
+                                    <img src="pic-7.png" alt="Event Management System">
+                                  
+                                </div>
+                                <button class="slider-btn next" data-project="2">
+                                    <i class='bx bx-chevron-right'></i>
+                                </button>
+                            </div>
+                            <div class="slider-indicators">
+                                <span class="indicator active" data-slide="0"></span>
+                                <span class="indicator" data-slide="1"></span>
+                                <span class="indicator" data-slide="2"></span>
+                                <span class="indicator" data-slide="3"></span>
+                                <span class="indicator" data-slide="4"></span>
+                                <span class="indicator" data-slide="5"></span>
+                                <span class="indicator" data-slide="6"></span>
+                                <span class="indicator" data-slide="7"></span>
+                            </div>
+                            <div class="image-overlay">
+                                <i class='bx bx-search-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Get In <span>Touch</span></h2>
+            
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p class="desc">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="detail">
+                            <i class='bx bxs-phone'></i>
+                            <div class="detail-text">
+                                <h4>Phone</h4>
+                                <p>+94-071-7128629</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail">
+                            <i class='bx bxs-envelope'></i>
+                            <div class="detail-text">
+                                <h4>Email</h4>
+                                <p>thamelsamith@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail">
+                            <i class='bx bxs-map'></i>
+                            <div class="detail-text">
+                                <h4>Address</h4>
+                                <p>Borupana Road, Ratmalana<br>Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/SamithThamel" aria-label="GitHub">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/samith-thamel-a87972316?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh83RbcJKRZ%2B46sgHwZTa%2FQ%3D%3D" aria-label="LinkedIn">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <h3>Send Me A Message</h3>
+                        
+                        <div class="form-group">
+                            <div class="input-box">
+                                <i class='bx bxs-user'></i>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-box">
+                                <i class='bx bxs-envelope'></i>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-box">
+                                <i class='bx bxs-phone'></i>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone (Optional)">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-box">
+                                <i class='bx bxs-message-detail'></i>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-box textarea-box">
+                                <i class='bx bxs-message-dots'></i>
+                                <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn">
+                            <span>Send Message</span>
+                            <i class='bx bx-send'></i>
+                        </button>
+                        
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+    </body>
+</html>
